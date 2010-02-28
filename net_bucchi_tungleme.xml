@@ -1,0 +1,13 @@
+<zimlet name="net_bucchi_tungleme" version="0.1" target="main view-window" description="TungleMe URL - Highlights and links the TungleMe URLs">
+	<include>tungleme.js</include>
+	<handlerObject>Net_Bucchi_TungleMe</handlerObject>
+
+	<contentObject type="tungleme">
+		<matchOn>
+			<regex attrs="ig">http://tungle.me/[^\s\xA0\(\)\&lt;\>\[\]\{\}\'\"]*</regex>
+		</matchOn>
+		<toolTip>
+			Click and open the Tungle Me Widget.
+		</toolTip>
+	</contentObject>
+</zimlet>
