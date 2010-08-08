@@ -1,0 +1,13 @@
+.ImgTungleMe-panelIcon {
+  background: url("tungleT.png") no-repeat 0 0;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.ImgTungleMe-toolbarIcon {
+  background: url("tgl.png") no-repeat 0 0;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}

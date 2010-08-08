@@ -1,5 +1,6 @@
-<zimlet name="net_bucchi_tungleme" version="0.1" target="main view-window" description="TungleMe URL - Highlights and links the TungleMe URLs">
+<zimlet name="net_bucchi_tungleme" version="0.5" target="main view-window" description="Tungle.me URL - Highlights and links the Tungle.me URLs">
 	<include>tungleme.js</include>
+	<includeCSS>tungleme.css</includeCSS>
 	<handlerObject>Net_Bucchi_TungleMe</handlerObject>
 
 	<contentObject type="tungleme">
@@ -7,7 +8,16 @@
 			<regex attrs="ig">http://tungle.me/[^\s\xA0\(\)\&lt;\>\[\]\{\}\'\"]*</regex>
 		</matchOn>
 		<toolTip>
-			Click and open the Tungle Me Widget.
+			Click and open the Tungle.me Widget.
 		</toolTip>
 	</contentObject>
+	
+	<zimletPanelItem label="Tungle.me" icon="TungleMe-panelIcon" >
+		<toolTipText>
+			"Click to setu up your Tungle.me Name."
+		</toolTipText>
+	</zimletPanelItem>
+	<userProperties>
+		<property type="string" label="your Tungle.me Name" name="my_tungleme_name" />
+	</userProperties>
 </zimlet>
